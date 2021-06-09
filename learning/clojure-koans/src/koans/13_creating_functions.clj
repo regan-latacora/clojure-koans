@@ -5,7 +5,7 @@
 
 (meditations
   "One may know what they seek by knowing what they do not seek"
-  (= [__ __ __] (let [not-a-symbol? (complement symbol?)]
+  (= [] (let [not-a-symbol? (complement symbol?)]
                   (map not-a-symbol? [:a 'b "c"])))
 
   "Praise and 'complement' may help you separate the wheat from the chaff"
